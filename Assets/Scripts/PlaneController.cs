@@ -149,6 +149,7 @@ public class PlaneController : MonoBehaviour {
     {
         respawnCharacter();
         GameMenuVariables._atMainMenu = true;
+        GameMenuVariables._atDefaultMenu = true;//this sets bothe of these variables back to true
     }
 
     private void respawnCharacter()

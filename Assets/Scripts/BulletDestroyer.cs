@@ -7,7 +7,6 @@ public class BulletDestroyer : MonoBehaviour {
 
     void Start()
     {
-
         StartCoroutine(timedBulletDestruction());
     }
 
